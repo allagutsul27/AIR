@@ -46,8 +46,6 @@
       justify-content: center;
       gap: 30px;
     }
-
-
   }
 
   &__card {
@@ -81,7 +79,6 @@
       @include onSmallDesktop {
         margin-bottom: 0;
       }
-
     }
   }
 
@@ -190,7 +187,6 @@
       &--special-margin {
         margin-bottom: 32px;
       }
-
     }
   }
 

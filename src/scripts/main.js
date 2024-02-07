@@ -93,7 +93,7 @@ tl.fromTo(
   '.header__btn',
   {
     opacity: 0,
-    x: 100,
+    x: -100,
   },
   {
     x: 0,
@@ -127,11 +127,11 @@ tl.fromTo(
   '.header__hire-link',
   {
     opacity: 0,
-    x: 50,
+    y: 50,
   },
   {
     opacity: 1,
-    x: 0,
+    y: 0,
     duration: 1,
   }
 );
