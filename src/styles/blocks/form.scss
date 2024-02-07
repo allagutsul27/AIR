@@ -22,7 +22,7 @@
       -webkit-box-shadow: 0 0 0 30px $background-color inset !important;
       -webkit-text-fill-color: #fff;
     }
-    
+
     @include onTablet {
       width: 362px;
     }
@@ -64,5 +64,8 @@
       background-color: #2c2c2c;
       color: rgba($color: #fff, $alpha: 0.7);
     }
+  }
+  &__btn {
+    cursor: pointer;
   }
 }

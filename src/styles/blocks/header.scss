@@ -159,22 +159,21 @@
       height: 680px;
     }
 
-    @include onDesktop {
-      height: 680px;
-    }
-
-    @include onLargeDesktop {
-      height: 680px;
-    }
-
     & img {
+      width: 100%;
+      height: 390px;
+      object-fit: fill;
       border-radius: 30px;
 
-      @include onSmallDesktop {
+      @include onTablet {
+        width: auto;
         border-radius: 30px 0;
       }
-    }
 
+      @include onSmallDesktop {
+        height: 680px;
+      }
+    }
   }
 
   &__slider-descr {

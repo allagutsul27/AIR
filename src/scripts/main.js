@@ -87,7 +87,7 @@ tl.fromTo(
   {
     y: 0,
     opacity: 1,
-    duration: 1,
+    duration: 1.4,
   }
 ).fromTo(
   '.header__btn',
@@ -152,7 +152,7 @@ gsap.from('.about__content', {
     trigger: '.about',
     start: '-300 0',
   },
-  delay: 0.5,
+  delay: 1,
   opacity: 0,
   y: 50,
   scale: 0.5,
@@ -175,7 +175,7 @@ gsap.from('.expertise__card', {
     trigger: '.expertise',
     start: '-200 0',
   },
-  delay: 0.7,
+  delay: 1,
   y: -100,
   opacity: 0,
   duration: 1,
@@ -196,9 +196,10 @@ gsap.from('.services__places', {
     trigger: '.services',
     start: '-300 0',
   },
+  delay: 1,
   y: 100,
   opacity: 0,
-  duration: 1,
+  duration: 1.5,
 });
 
 gsap.from('.testimonials__title', {
@@ -227,7 +228,7 @@ gsap.from('.testimonials__cards', {
     trigger: '.testimonials',
     start: '-300 0',
   },
-  delay: 1.5,
+  delay: 2,
   stagger: 0.8,
   y: 100,
   opacity: 0,
@@ -283,7 +284,7 @@ gsap.from('.contacts__info', {
     start: '-200 0',
   },
   y: -50,
-  delay: 1.5,
+  delay: 2,
   opacity: 0,
   duration: 1,
 });
